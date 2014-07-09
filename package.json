@@ -1,6 +1,6 @@
 {
 	"name": "header-case-normalizer",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"description": "Converts HTTP headers to their most common casing. (e.g. usEr-Agent -> User-Agent)",
 	"repository": {

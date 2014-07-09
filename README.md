@@ -7,6 +7,6 @@ compatibility reasons, you might need them in their more common form.
 This library converts them:
 
 	var normalizeHeaderCase = require("header-case-normalizer");
-	normalizeHeaderCase("user-agent") #=> "User-Agent"
+	normalizeHeaderCase("user-agent") //-> "User-Agent"
 
 Tested with a list from MDN.
