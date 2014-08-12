@@ -117,5 +117,8 @@ describe("header tests", function () {
       normalizeHeaderCase(upperCased).should.equal(header);
     });
   });
+  it("should try to normalize an unknown header", function () {
+    normalizeHeaderCase("x-unknown-header").should.equal("X-Unknown-Header");
+  });
 });
 
