@@ -1,12 +1,9 @@
 {
 	"name": "header-case-normalizer",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"main": "index.js",
 	"description": "Converts HTTP headers to their most common casing. (e.g. usEr-Agent -> User-Agent)",
-	"repository": {
-		"type": "bzr",
-		"url": "http://bazaar.launchpad.net/~marten-de-vries/python-pouchdb/0.x"
-	},
+	"repository": "marten-de-vries/header-case-normalizer",
 	"bugs": "https://bugs.launchpad.net/python-pouchdb",
 	"keywords": [
 		"http",
@@ -19,16 +16,10 @@
 	"license": "Apache-2.0",
 	"author": "Marten de Vries",
 	"devDependencies": {
-		"es3ify": "^0.1.3",
 		"mocha": "^1.20.1",
 		"chai": "^1.9.1"
 	},
 	"scripts": {
 		"test": "./node_modules/mocha/bin/mocha"
-	},
-	"browserify": {
-		"transform": [
-			"es3ify"
-		]
 	}
 }
